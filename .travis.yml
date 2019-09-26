@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+
+language: go
+
+go_import_path: github.com/hyperledger-labs/fabric-chaincode-wasm
+
+go:
+  - 1.12
+  - 1.13
+
+env:
+  - GO111MODULE=on
